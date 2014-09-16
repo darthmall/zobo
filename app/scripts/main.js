@@ -1,7 +1,7 @@
 /* global Vue, moment */
 'use strict';
 
-var target = moment('2014-09-21'),
+var target = moment('2014-09-22T18:25:00-04:00'),
   counter = {
     zobotime: moment().isAfter(target),
     days: 0,
